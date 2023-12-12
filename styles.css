@@ -1,0 +1,145 @@
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.desktop .div {
+    background-color: #ffffff;
+    height: 100%;
+    overflow: scroll;
+    position: relative;
+    width: 100%;
+}
+
+.desktop .box-media {
+    background-color: #d9d9d9;
+    height: 500px;
+    left: 830px;
+    position: absolute;
+    top: 110px;
+    width: 500px;
+}
+
+.desktop .img {
+    height: 5px;
+    left: 723px;
+    position: absolute;
+    top: 56px;
+    width: 2px;
+}
+
+.desktop .poly-circle {
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    height: 40px;
+    left: 71px;
+    position: absolute;
+    top: 895px;
+    width: 40px;
+}
+
+.desktop .poly-circle-2 {
+    background-color: #d9d9d9;
+    height: 40px;
+    left: 340px;
+    position: absolute;
+    top: 895px;
+    width: 40px;
+}
+
+.desktop .poly-circle-3 {
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    height: 40px;
+    left: 609px;
+    position: absolute;
+    top: 895px;
+    width: 40px;
+}
+
+.desktop .box {
+    background-color: #d9d9d9;
+    height: 94px;
+    left: 111px;
+    position: absolute;
+    top: 171px;
+    width: 500px;
+}
+
+.desktop .box-2 {
+    background-color: #d9d9d9;
+    height: 94px;
+    left: 111px;
+    position: absolute;
+    top: 293px;
+    width: 500px;
+}
+
+.desktop .box-3 {
+    background-color: #d9d9d9;
+    height: 33px;
+    left: 828px;
+    position: absolute;
+    top: 771px;
+    width: 500px;
+}
+
+.desktop .box-4 {
+    background-color: #d9d9d9;
+    height: 33px;
+    left: 828px;
+    position: absolute;
+    top: 828px;
+    width: 500px;
+}
+
+.desktop .box-5 {
+    background-color: #d9d9d9;
+    height: 33px;
+    left: 828px;
+    position: absolute;
+    top: 886px;
+    width: 500px;
+}
+
+.desktop .box-6 {
+    background-color: #d9d9d9;
+    height: 33px;
+    left: 828px;
+    position: absolute;
+    top: 945px;
+    width: 500px;
+}
+
+.desktop .box-7 {
+    background-color: #d9d9d9;
+    height: 94px;
+    left: 111px;
+    position: absolute;
+    top: 419px;
+    width: 500px;
+}
+
+.desktop .text {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 117px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 86px;
+    width: 223px;
+}
+
+.desktop .btn-play {
+    height: 44px;
+    left: 1068px;
+    position: absolute;
+    top: 643px;
+    width: 34px;
+}
