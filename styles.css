@@ -1,145 +1,176 @@
-.desktop {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-}
-
-.desktop .div {
-    background-color: #ffffff;
-    height: 100%;
-    overflow: scroll;
-    position: relative;
-    width: 100%;
-}
-
-.desktop .box-media {
-    background-color: #d9d9d9;
-    height: 500px;
-    left: 830px;
-    position: absolute;
-    top: 110px;
-    width: 500px;
-}
-
-.desktop .img {
-    height: 5px;
-    left: 723px;
-    position: absolute;
-    top: 56px;
-    width: 2px;
-}
-
-.desktop .poly-circle {
-    background-color: #d9d9d9;
-    border-radius: 20px;
-    height: 40px;
-    left: 71px;
-    position: absolute;
-    top: 895px;
-    width: 40px;
-}
-
-.desktop .poly-circle-2 {
-    background-color: #d9d9d9;
-    height: 40px;
-    left: 340px;
-    position: absolute;
-    top: 895px;
-    width: 40px;
-}
-
-.desktop .poly-circle-3 {
-    background-color: #d9d9d9;
-    border-radius: 20px;
-    height: 40px;
-    left: 609px;
-    position: absolute;
-    top: 895px;
-    width: 40px;
-}
-
-.desktop .box {
-    background-color: #d9d9d9;
-    height: 94px;
-    left: 111px;
-    position: absolute;
-    top: 171px;
-    width: 500px;
-}
-
-.desktop .box-2 {
-    background-color: #d9d9d9;
-    height: 94px;
-    left: 111px;
-    position: absolute;
-    top: 293px;
-    width: 500px;
-}
-
-.desktop .box-3 {
-    background-color: #d9d9d9;
-    height: 33px;
-    left: 828px;
-    position: absolute;
-    top: 771px;
-    width: 500px;
-}
-
-.desktop .box-4 {
-    background-color: #d9d9d9;
-    height: 33px;
-    left: 828px;
-    position: absolute;
-    top: 828px;
-    width: 500px;
-}
-
-.desktop .box-5 {
-    background-color: #d9d9d9;
-    height: 33px;
-    left: 828px;
-    position: absolute;
-    top: 886px;
-    width: 500px;
-}
-
-.desktop .box-6 {
-    background-color: #d9d9d9;
-    height: 33px;
-    left: 828px;
-    position: absolute;
-    top: 945px;
-    width: 500px;
-}
-
-.desktop .box-7 {
-    background-color: #d9d9d9;
-    height: 94px;
-    left: 111px;
-    position: absolute;
-    top: 419px;
-    width: 500px;
-}
-
-.desktop .text {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 24px;
-    font-weight: 400;
-    left: 117px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 86px;
-    width: 223px;
-}
-
-.desktop .btn-play {
-    height: 44px;
-    left: 1068px;
-    position: absolute;
-    top: 643px;
-    width: 34px;
+const converted = {
+  ".desktop": {
+    backgroundColor: "#ffffff",
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "center",
+    width: "100%"
+  },
+  ".desktop .div": {
+    backgroundColor: "#ffffff",
+    height: "1024px",
+    overflow: "hidden",
+    position: "relative",
+    width: "1440px"
+  },
+  ".desktop .line": {
+    height: "2px",
+    left: "722px",
+    position: "absolute",
+    top: "4px",
+    width: "5px"
+  },
+  ".desktop .rectangle": {
+    backgroundColor: "#d9d9d9",
+    height: "500px",
+    left: "830px",
+    position: "absolute",
+    top: "110px",
+    width: "500px"
+  },
+  ".desktop .img": {
+    height: "5px",
+    left: "1439px",
+    position: "absolute",
+    top: "715px",
+    width: "1px"
+  },
+  ".desktop .line-2": {
+    height: "5px",
+    left: "723px",
+    position: "absolute",
+    top: "56px",
+    width: "2px"
+  },
+  ".desktop .line-3": {
+    height: "1px",
+    left: "720px",
+    objectFit: "cover",
+    position: "absolute",
+    top: "0",
+    width: "720px"
+  },
+  ".desktop .line-4": {
+    height: "702px",
+    left: "1440px",
+    objectFit: "cover",
+    position: "absolute",
+    top: "0",
+    width: "1px"
+  },
+  ".desktop .ellipse": {
+    backgroundColor: "#d9d9d9",
+    borderRadius: "20px",
+    height: "40px",
+    left: "71px",
+    position: "absolute",
+    top: "895px",
+    width: "40px"
+  },
+  ".desktop .ellipse-2": {
+    height: "40px",
+    left: "340px",
+    position: "absolute",
+    top: "895px",
+    width: "40px"
+  },
+  ".desktop .ellipse-3": {
+    backgroundColor: "#d9d9d9",
+    borderRadius: "20px",
+    height: "40px",
+    left: "609px",
+    position: "absolute",
+    top: "895px",
+    width: "40px"
+  },
+  ".desktop .line-5": {
+    height: "1024px",
+    left: "0",
+    objectFit: "cover",
+    position: "absolute",
+    top: "0",
+    width: "1px"
+  },
+  ".desktop .rectangle-2": {
+    backgroundColor: "#d9d9d9",
+    height: "94px",
+    left: "111px",
+    position: "absolute",
+    top: "171px",
+    width: "500px"
+  },
+  ".desktop .rectangle-3": {
+    backgroundColor: "#d9d9d9",
+    height: "94px",
+    left: "111px",
+    position: "absolute",
+    top: "293px",
+    width: "500px"
+  },
+  ".desktop .rectangle-4": {
+    backgroundColor: "#d9d9d9",
+    height: "33px",
+    left: "828px",
+    position: "absolute",
+    top: "771px",
+    width: "500px"
+  },
+  ".desktop .rectangle-5": {
+    backgroundColor: "#d9d9d9",
+    height: "33px",
+    left: "828px",
+    position: "absolute",
+    top: "828px",
+    width: "500px"
+  },
+  ".desktop .rectangle-6": {
+    backgroundColor: "#d9d9d9",
+    height: "33px",
+    left: "828px",
+    position: "absolute",
+    top: "886px",
+    width: "500px"
+  },
+  ".desktop .rectangle-7": {
+    backgroundColor: "#d9d9d9",
+    height: "33px",
+    left: "828px",
+    position: "absolute",
+    top: "945px",
+    width: "500px"
+  },
+  ".desktop .rectangle-8": {
+    backgroundColor: "#d9d9d9",
+    height: "94px",
+    left: "111px",
+    position: "absolute",
+    top: "419px",
+    width: "500px"
+  },
+  ".desktop .MULE": {
+    color: "#000000",
+    fontFamily: '"Inter-Regular", Helvetica',
+    fontSize: "24px",
+    fontWeight: 400,
+    left: "117px",
+    letterSpacing: "0",
+    lineHeight: "normal",
+    position: "absolute",
+    top: "86px"
+  },
+  ".desktop .line-6": {
+    height: "1px",
+    left: "2160px",
+    objectFit: "cover",
+    position: "absolute",
+    top: "1229px",
+    width: "308px"
+  },
+  ".desktop .polygon": {
+    height: "44px",
+    left: "1068px",
+    position: "absolute",
+    top: "643px",
+    width: "34px"
+  }
 }
