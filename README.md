@@ -35,3 +35,7 @@ https://github.com/JKMCCALLA/embrace/assets/59835986/f99bb8f4-2324-4d5c-a050-a35
 # Repos Citation
 * https://github.com/TalAter/annyang
 * https://github.com/Gamote/lottie-react
+
+# To-Do
+* API to grammar check Spanish responses
+* Further animation, page, and functionality development
