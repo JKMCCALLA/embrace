@@ -13,7 +13,7 @@ https://github.com/JKMCCALLA/embrace/assets/59835986/56421a17-2464-4433-9467-be9
 # Project Workflow
 [embrace-workflow.pdf](https://github.com/JKMCCALLA/embrace/files/13668104/embrace-workflow.pdf)
 
-# Compatible Spanish Languages in Chrome
+# Compatible Spanish Languages
 * Spanish (Argentina) `es-AR`
 * Spanish (Bolivia) `es-BO`
 * Spanish (Chile) `es-CL`
