@@ -35,6 +35,8 @@ https://github.com/JKMCCALLA/embrace/assets/59835986/f99bb8f4-2324-4d5c-a050-a35
 # Repos Citation
 * https://github.com/TalAter/annyang
 * https://github.com/Gamote/lottie-react
+* https://github.com/splinetool/react-spline
+* https://github.com/openai/whisper
 
 # To-Do
 * API to grammar check Spanish responses
